@@ -80,7 +80,7 @@ const Hero = () => {
         </motion.div>
 
         {/* Right Image Card */}
-        {/* <motion.div
+         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
@@ -103,7 +103,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </motion.div> */}
+        </motion.div>
       </div>
     </section>
   );
