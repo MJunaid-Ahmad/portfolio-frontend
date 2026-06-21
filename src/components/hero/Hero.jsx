@@ -97,13 +97,14 @@ const Hero = () => {
                 alt={personalDetails.name}
                 className="rounded-xl w-full h-auto object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
               />
-              <div className="mt-4 text-center">
+              {/* <div className="mt-4 text-center">
                 <h3 className="font-semibold text-white font-poppins">{personalDetails.name}</h3>
                 <p className="text-xs text-slate-500 font-medium mt-1">Based in {personalDetails.location}</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </motion.div>
+
       </div>
     </section>
   );
